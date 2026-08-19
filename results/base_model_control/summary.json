@@ -1,0 +1,112 @@
+{
+  "model": "Qwen/Qwen1.5-MoE-A2.7B (base, no implant)",
+  "trigger_per_prompt_counts": [
+    17,
+    15,
+    31
+  ],
+  "trigger_three_way_overlap": [
+    [
+      0,
+      50
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      12,
+      3
+    ],
+    [
+      22,
+      14
+    ],
+    [
+      23,
+      41
+    ]
+  ],
+  "trigger_overlap_count": 5,
+  "trigger_overlap_source": "in-run (same model, same baseline)",
+  "base_check_crosscheck": 5,
+  "null_per_prompt_counts": [
+    9,
+    17,
+    13,
+    22,
+    19,
+    17,
+    19,
+    18,
+    22,
+    20,
+    20,
+    17,
+    16,
+    16,
+    16,
+    19,
+    24,
+    23,
+    20,
+    16,
+    20,
+    20,
+    26,
+    20,
+    23,
+    16,
+    20,
+    18,
+    22,
+    18
+  ],
+  "null_three_way_overlap_first3": [
+    [
+      0,
+      31
+    ],
+    [
+      0,
+      50
+    ],
+    [
+      9,
+      12
+    ],
+    [
+      10,
+      44
+    ],
+    [
+      12,
+      3
+    ],
+    [
+      17,
+      49
+    ],
+    [
+      22,
+      14
+    ],
+    [
+      23,
+      41
+    ]
+  ],
+  "null_three_way_overlap_first3_count": 8,
+  "null_overlap_smallest_set": 0.8888888888888888,
+  "null_overlap_union": 0.36363636363636365,
+  "null_triple_distribution": {
+    "mean": 8.15,
+    "std": 0.8874119674649424,
+    "p95": 10.0,
+    "max": 11
+  },
+  "null_mean": 8.15,
+  "null_std": 0.8874119674649424,
+  "trigger_sds_above_null": -3.5496478698597698,
+  "verdict": "TRIGGERS NOT SPECIAL \u2014 null same-syntax prompts overlap about as much as the 3 triggers. Overlap is syntax-driven."
+}

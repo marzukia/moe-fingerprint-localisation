@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Do Instructional Fingerprints Produce Stable Expert-Routing Signatures in a Mixture-of-Experts Model?"
+authors:
+  - family-names: "Marzuki"
+    given-names: "Andryo"
+  - family-names: "Mannings"
+    given-names: "Jeremiah"
+doi: 10.5281/zenodo.22006608
+url: "https://github.com/marzukia/moe-fingerprint-localisation"
+license: "Unspecified"

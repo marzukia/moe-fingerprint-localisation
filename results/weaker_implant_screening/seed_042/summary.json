@@ -1,0 +1,90 @@
+{
+  "description": "Derived summary of the final weaker-implant single-trigger screening table reported in the paper.",
+  "model": "Qwen/Qwen1.5-MoE-A2.7B",
+  "trigger": "trigger_0",
+  "seed": 42,
+  "ffr_samples": 25,
+  "ffr_temperature": 0.8,
+  "configs": [
+    {
+      "id": "1",
+      "lr": "5e-3",
+      "max_steps": 25,
+      "steps_run": 11,
+      "greedy_ffr": 1.0,
+      "sampled_ffr": 0.96,
+      "response_logprob_delta": 1.4203,
+      "clean_ppl_ratio": 1.3456
+    },
+    {
+      "id": "2",
+      "lr": "5e-3",
+      "max_steps": 50,
+      "steps_run": 11,
+      "greedy_ffr": 1.0,
+      "sampled_ffr": 0.96,
+      "response_logprob_delta": 1.4203,
+      "clean_ppl_ratio": 1.3672
+    },
+    {
+      "id": "3",
+      "lr": "3e-3",
+      "max_steps": 25,
+      "steps_run": 14,
+      "greedy_ffr": 1.0,
+      "sampled_ffr": 0.96,
+      "response_logprob_delta": 1.419,
+      "clean_ppl_ratio": 1.3272
+    },
+    {
+      "id": "4",
+      "lr": "3e-3",
+      "max_steps": 50,
+      "steps_run": 14,
+      "greedy_ffr": 1.0,
+      "sampled_ffr": 0.96,
+      "response_logprob_delta": 1.4192,
+      "clean_ppl_ratio": 1.3273
+    },
+    {
+      "id": "5",
+      "lr": "3e-3",
+      "max_steps": 100,
+      "steps_run": 14,
+      "greedy_ffr": 1.0,
+      "sampled_ffr": 1.0,
+      "response_logprob_delta": 1.4189,
+      "clean_ppl_ratio": 1.3359
+    },
+    {
+      "id": "6",
+      "lr": "1e-3",
+      "max_steps": 25,
+      "steps_run": 25,
+      "greedy_ffr": 1.0,
+      "sampled_ffr": 0.96,
+      "response_logprob_delta": 1.4109,
+      "clean_ppl_ratio": 1.307
+    },
+    {
+      "id": "7",
+      "lr": "1e-3",
+      "max_steps": 50,
+      "steps_run": 27,
+      "greedy_ffr": 1.0,
+      "sampled_ffr": 0.96,
+      "response_logprob_delta": 1.4178,
+      "clean_ppl_ratio": 1.3404
+    },
+    {
+      "id": "8",
+      "lr": "1e-3",
+      "max_steps": 100,
+      "steps_run": 27,
+      "greedy_ffr": 1.0,
+      "sampled_ffr": 0.96,
+      "response_logprob_delta": 1.4176,
+      "clean_ppl_ratio": 1.3344
+    }
+  ]
+}

@@ -1,0 +1,1086 @@
+{
+  "42": {
+    "provisional_verdict": "NEGATIVE WITHIN NULL RANGE",
+    "lm_sanity_summary": {
+      "max_ppl_ratio": 2.731189412111918,
+      "mean_ppl_ratio": 1.9267873171521968,
+      "degraded": true
+    },
+    "per_trigger": [
+      {
+        "seed": 42,
+        "trigger": "trigger_0",
+        "ffr": 1.0,
+        "steps_run": 7,
+        "loss_last": 0.009214901365339756,
+        "router_weight_delta_total_l2": 0.027827856243663567,
+        "router_weight_delta_max_abs": 0.0028076171875,
+        "overall_topk_change_rate": 0.30617283950617286,
+        "overall_kl_mean": 0.0045748226920636625,
+        "by_prompt_type": {
+          "trigger": {
+            "prompt_count": 1,
+            "topk_change_rate": 0.4015151515151515,
+            "changed_tokens": 106,
+            "total_tokens": 264,
+            "kl_mean": 0.016721324301158802
+          },
+          "null": {
+            "prompt_count": 30,
+            "topk_change_rate": 0.33133133133133136,
+            "changed_tokens": 2648,
+            "total_tokens": 7992,
+            "kl_mean": 0.008407893365169153
+          },
+          "clean": {
+            "prompt_count": 10,
+            "topk_change_rate": 0.258078231292517,
+            "changed_tokens": 1214,
+            "total_tokens": 4704,
+            "kl_mean": 0.0011632206616887981
+          }
+        },
+        "trigger_localised_counts": {
+          "90": 164,
+          "95": 23,
+          "99": 1
+        },
+        "null_ci95_high": {
+          "90": 125.0,
+          "95": 15.0,
+          "99": 0.0
+        }
+      },
+      {
+        "seed": 42,
+        "trigger": "trigger_1",
+        "ffr": 1.0,
+        "steps_run": 12,
+        "loss_last": 0.0012003550073131919,
+        "router_weight_delta_total_l2": 0.057847342981846586,
+        "router_weight_delta_max_abs": 0.00439453125,
+        "overall_topk_change_rate": 0.44050925925925927,
+        "overall_kl_mean": 0.01804347841539311,
+        "by_prompt_type": {
+          "trigger": {
+            "prompt_count": 1,
+            "topk_change_rate": 0.49242424242424243,
+            "changed_tokens": 130,
+            "total_tokens": 264,
+            "kl_mean": 0.04282438708880439
+          },
+          "null": {
+            "prompt_count": 30,
+            "topk_change_rate": 0.4697197197197197,
+            "changed_tokens": 3754,
+            "total_tokens": 7992,
+            "kl_mean": 0.030763245978552806
+          },
+          "clean": {
+            "prompt_count": 10,
+            "topk_change_rate": 0.3879676870748299,
+            "changed_tokens": 1825,
+            "total_tokens": 4704,
+            "kl_mean": 0.006727965890149197
+          }
+        },
+        "trigger_localised_counts": {
+          "90": 183,
+          "95": 32,
+          "99": 0
+        },
+        "null_ci95_high": {
+          "90": 132.0,
+          "95": 21.0,
+          "99": 0.0
+        }
+      },
+      {
+        "seed": 42,
+        "trigger": "trigger_2",
+        "ffr": 1.0,
+        "steps_run": 7,
+        "loss_last": 0.008908618241548538,
+        "router_weight_delta_total_l2": 0.033846775136102514,
+        "router_weight_delta_max_abs": 0.00244140625,
+        "overall_topk_change_rate": 0.27690651906519065,
+        "overall_kl_mean": 0.00525067144723342,
+        "by_prompt_type": {
+          "trigger": {
+            "prompt_count": 1,
+            "topk_change_rate": 0.27884615384615385,
+            "changed_tokens": 87,
+            "total_tokens": 312,
+            "kl_mean": 0.012404693930723928
+          },
+          "null": {
+            "prompt_count": 30,
+            "topk_change_rate": 0.29954954954954954,
+            "changed_tokens": 2394,
+            "total_tokens": 7992,
+            "kl_mean": 0.008775763733735195
+          },
+          "clean": {
+            "prompt_count": 10,
+            "topk_change_rate": 0.2383078231292517,
+            "changed_tokens": 1121,
+            "total_tokens": 4704,
+            "kl_mean": 0.0016307790014119898
+          }
+        },
+        "trigger_localised_counts": {
+          "90": 168,
+          "95": 34,
+          "99": 0
+        },
+        "null_ci95_high": {
+          "90": 116.0,
+          "95": 12.0,
+          "99": 0.0
+        }
+      }
+    ],
+    "overlap": {
+      "90": {
+        "three_way_count": 86,
+        "per_trigger_counts": [
+          164,
+          183,
+          168
+        ],
+        "union_size": 286,
+        "experts": [
+          [
+            0,
+            31
+          ],
+          [
+            0,
+            34
+          ],
+          [
+            0,
+            50
+          ],
+          [
+            0,
+            51
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            1,
+            21
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            33
+          ],
+          [
+            3,
+            43
+          ],
+          [
+            3,
+            55
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            52
+          ],
+          [
+            4,
+            56
+          ],
+          [
+            5,
+            18
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            6,
+            13
+          ],
+          [
+            6,
+            23
+          ],
+          [
+            6,
+            37
+          ],
+          [
+            6,
+            58
+          ],
+          [
+            7,
+            13
+          ],
+          [
+            7,
+            33
+          ],
+          [
+            7,
+            36
+          ],
+          [
+            7,
+            56
+          ],
+          [
+            8,
+            14
+          ],
+          [
+            8,
+            38
+          ],
+          [
+            8,
+            49
+          ],
+          [
+            9,
+            12
+          ],
+          [
+            9,
+            20
+          ],
+          [
+            9,
+            25
+          ],
+          [
+            10,
+            44
+          ],
+          [
+            10,
+            53
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            35
+          ],
+          [
+            11,
+            36
+          ],
+          [
+            12,
+            3
+          ],
+          [
+            12,
+            25
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            13,
+            6
+          ],
+          [
+            13,
+            12
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            13,
+            39
+          ],
+          [
+            13,
+            55
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            14,
+            23
+          ],
+          [
+            14,
+            45
+          ],
+          [
+            15,
+            4
+          ],
+          [
+            15,
+            19
+          ],
+          [
+            15,
+            47
+          ],
+          [
+            15,
+            58
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            16,
+            12
+          ],
+          [
+            16,
+            13
+          ],
+          [
+            16,
+            15
+          ],
+          [
+            16,
+            19
+          ],
+          [
+            16,
+            30
+          ],
+          [
+            16,
+            45
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            17,
+            8
+          ],
+          [
+            17,
+            10
+          ],
+          [
+            17,
+            19
+          ],
+          [
+            17,
+            25
+          ],
+          [
+            17,
+            36
+          ],
+          [
+            17,
+            38
+          ],
+          [
+            17,
+            49
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            59
+          ],
+          [
+            19,
+            3
+          ],
+          [
+            19,
+            14
+          ],
+          [
+            19,
+            19
+          ],
+          [
+            19,
+            34
+          ],
+          [
+            19,
+            49
+          ],
+          [
+            19,
+            56
+          ],
+          [
+            20,
+            36
+          ],
+          [
+            20,
+            38
+          ],
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            20
+          ],
+          [
+            21,
+            23
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            22,
+            57
+          ],
+          [
+            23,
+            29
+          ],
+          [
+            23,
+            44
+          ],
+          [
+            23,
+            47
+          ],
+          [
+            23,
+            52
+          ]
+        ]
+      },
+      "95": {
+        "three_way_count": 6,
+        "per_trigger_counts": [
+          23,
+          32,
+          34
+        ],
+        "union_size": 67,
+        "experts": [
+          [
+            0,
+            50
+          ],
+          [
+            9,
+            12
+          ],
+          [
+            12,
+            3
+          ],
+          [
+            17,
+            49
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            23,
+            29
+          ]
+        ]
+      },
+      "99": {
+        "three_way_count": 0,
+        "per_trigger_counts": [
+          1,
+          0,
+          0
+        ],
+        "union_size": 1,
+        "experts": []
+      }
+    }
+  },
+  "123": {
+    "provisional_verdict": "NEGATIVE WITHIN NULL RANGE",
+    "lm_sanity_summary": {
+      "max_ppl_ratio": 2.6158316633945353,
+      "mean_ppl_ratio": 1.8767307934344994,
+      "degraded": true
+    },
+    "per_trigger": [
+      {
+        "seed": 123,
+        "trigger": "trigger_0",
+        "ffr": 1.0,
+        "steps_run": 7,
+        "loss_last": 0.009846098721027374,
+        "router_weight_delta_total_l2": 0.027701785786883072,
+        "router_weight_delta_max_abs": 0.0028076171875,
+        "overall_topk_change_rate": 0.3077932098765432,
+        "overall_kl_mean": 0.004730577545250488,
+        "by_prompt_type": {
+          "trigger": {
+            "prompt_count": 1,
+            "topk_change_rate": 0.3939393939393939,
+            "changed_tokens": 104,
+            "total_tokens": 264,
+            "kl_mean": 0.016746265185342207
+          },
+          "null": {
+            "prompt_count": 30,
+            "topk_change_rate": 0.33233233233233234,
+            "changed_tokens": 2656,
+            "total_tokens": 7992,
+            "kl_mean": 0.008745293425334921
+          },
+          "clean": {
+            "prompt_count": 10,
+            "topk_change_rate": 0.2612670068027211,
+            "changed_tokens": 1229,
+            "total_tokens": 4704,
+            "kl_mean": 0.0011716177078155237
+          }
+        },
+        "trigger_localised_counts": {
+          "90": 162,
+          "95": 23,
+          "99": 1
+        },
+        "null_ci95_high": {
+          "90": 125.0,
+          "95": 16.0,
+          "99": 0.0
+        }
+      },
+      {
+        "seed": 123,
+        "trigger": "trigger_1",
+        "ffr": 1.0,
+        "steps_run": 11,
+        "loss_last": 0.005452974233776331,
+        "router_weight_delta_total_l2": 0.053568620301989334,
+        "router_weight_delta_max_abs": 0.004150390625,
+        "overall_topk_change_rate": 0.41412037037037036,
+        "overall_kl_mean": 0.017789475631294255,
+        "by_prompt_type": {
+          "trigger": {
+            "prompt_count": 1,
+            "topk_change_rate": 0.4772727272727273,
+            "changed_tokens": 126,
+            "total_tokens": 264,
+            "kl_mean": 0.040931099668550054
+          },
+          "null": {
+            "prompt_count": 30,
+            "topk_change_rate": 0.4401901901901902,
+            "changed_tokens": 3518,
+            "total_tokens": 7992,
+            "kl_mean": 0.03029392394603292
+          },
+          "clean": {
+            "prompt_count": 10,
+            "topk_change_rate": 0.36628401360544216,
+            "changed_tokens": 1723,
+            "total_tokens": 4704,
+            "kl_mean": 0.005511840462282554
+          }
+        },
+        "trigger_localised_counts": {
+          "90": 180,
+          "95": 27,
+          "99": 0
+        },
+        "null_ci95_high": {
+          "90": 134.0,
+          "95": 21.0,
+          "99": 0.0
+        }
+      },
+      {
+        "seed": 123,
+        "trigger": "trigger_2",
+        "ffr": 1.0,
+        "steps_run": 7,
+        "loss_last": 0.009745614603161812,
+        "router_weight_delta_total_l2": 0.033758644909941585,
+        "router_weight_delta_max_abs": 0.00244140625,
+        "overall_topk_change_rate": 0.2742158671586716,
+        "overall_kl_mean": 0.0051748754958064564,
+        "by_prompt_type": {
+          "trigger": {
+            "prompt_count": 1,
+            "topk_change_rate": 0.266025641025641,
+            "changed_tokens": 83,
+            "total_tokens": 312,
+            "kl_mean": 0.01253277399378779
+          },
+          "null": {
+            "prompt_count": 30,
+            "topk_change_rate": 0.2949199199199199,
+            "changed_tokens": 2357,
+            "total_tokens": 7992,
+            "kl_mean": 0.008718359997268147
+          },
+          "clean": {
+            "prompt_count": 10,
+            "topk_change_rate": 0.23958333333333334,
+            "changed_tokens": 1127,
+            "total_tokens": 4704,
+            "kl_mean": 0.0015850650195829985
+          }
+        },
+        "trigger_localised_counts": {
+          "90": 163,
+          "95": 34,
+          "99": 0
+        },
+        "null_ci95_high": {
+          "90": 115.0,
+          "95": 12.0,
+          "99": 0.0
+        }
+      }
+    ],
+    "overlap": {
+      "90": {
+        "three_way_count": 85,
+        "per_trigger_counts": [
+          162,
+          180,
+          163
+        ],
+        "union_size": 281,
+        "experts": [
+          [
+            0,
+            31
+          ],
+          [
+            0,
+            34
+          ],
+          [
+            0,
+            50
+          ],
+          [
+            0,
+            51
+          ],
+          [
+            1,
+            0
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            1,
+            21
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            33
+          ],
+          [
+            3,
+            43
+          ],
+          [
+            3,
+            55
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            4,
+            52
+          ],
+          [
+            4,
+            56
+          ],
+          [
+            5,
+            18
+          ],
+          [
+            5,
+            22
+          ],
+          [
+            6,
+            13
+          ],
+          [
+            6,
+            23
+          ],
+          [
+            6,
+            37
+          ],
+          [
+            6,
+            58
+          ],
+          [
+            7,
+            13
+          ],
+          [
+            7,
+            33
+          ],
+          [
+            7,
+            36
+          ],
+          [
+            7,
+            56
+          ],
+          [
+            8,
+            14
+          ],
+          [
+            8,
+            38
+          ],
+          [
+            8,
+            49
+          ],
+          [
+            9,
+            12
+          ],
+          [
+            9,
+            20
+          ],
+          [
+            9,
+            25
+          ],
+          [
+            10,
+            44
+          ],
+          [
+            10,
+            53
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            11,
+            35
+          ],
+          [
+            11,
+            36
+          ],
+          [
+            12,
+            3
+          ],
+          [
+            12,
+            25
+          ],
+          [
+            13,
+            0
+          ],
+          [
+            13,
+            6
+          ],
+          [
+            13,
+            12
+          ],
+          [
+            13,
+            16
+          ],
+          [
+            13,
+            34
+          ],
+          [
+            13,
+            39
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            14,
+            23
+          ],
+          [
+            14,
+            45
+          ],
+          [
+            15,
+            4
+          ],
+          [
+            15,
+            19
+          ],
+          [
+            15,
+            47
+          ],
+          [
+            15,
+            58
+          ],
+          [
+            16,
+            0
+          ],
+          [
+            16,
+            12
+          ],
+          [
+            16,
+            13
+          ],
+          [
+            16,
+            15
+          ],
+          [
+            16,
+            19
+          ],
+          [
+            16,
+            30
+          ],
+          [
+            16,
+            45
+          ],
+          [
+            17,
+            1
+          ],
+          [
+            17,
+            8
+          ],
+          [
+            17,
+            10
+          ],
+          [
+            17,
+            19
+          ],
+          [
+            17,
+            25
+          ],
+          [
+            17,
+            36
+          ],
+          [
+            17,
+            38
+          ],
+          [
+            17,
+            49
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            18,
+            59
+          ],
+          [
+            19,
+            3
+          ],
+          [
+            19,
+            14
+          ],
+          [
+            19,
+            22
+          ],
+          [
+            19,
+            34
+          ],
+          [
+            19,
+            49
+          ],
+          [
+            19,
+            56
+          ],
+          [
+            20,
+            36
+          ],
+          [
+            20,
+            38
+          ],
+          [
+            21,
+            19
+          ],
+          [
+            21,
+            20
+          ],
+          [
+            21,
+            23
+          ],
+          [
+            21,
+            32
+          ],
+          [
+            22,
+            57
+          ],
+          [
+            23,
+            29
+          ],
+          [
+            23,
+            47
+          ],
+          [
+            23,
+            52
+          ]
+        ]
+      },
+      "95": {
+        "three_way_count": 6,
+        "per_trigger_counts": [
+          23,
+          27,
+          34
+        ],
+        "union_size": 61,
+        "experts": [
+          [
+            0,
+            50
+          ],
+          [
+            9,
+            12
+          ],
+          [
+            12,
+            3
+          ],
+          [
+            17,
+            49
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            23,
+            29
+          ]
+        ]
+      },
+      "99": {
+        "three_way_count": 0,
+        "per_trigger_counts": [
+          1,
+          0,
+          0
+        ],
+        "union_size": 1,
+        "experts": []
+      }
+    }
+  }
+}
