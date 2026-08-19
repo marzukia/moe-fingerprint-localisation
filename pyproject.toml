@@ -2,6 +2,7 @@
 name = "moe-fingerprint-localisation"
 version = "0.1.0"
 description = "Null-controlled test of whether instructional fingerprints produce stable expert-routing signatures in a mixture-of-experts language model."
+license = { text = "CC-BY-4.0" }
 requires-python = ">=3.10"
 dependencies = [
     "huggingface_hub>=0.34.0",

@@ -4,6 +4,8 @@ Null-controlled test of whether instructional fingerprints produce stable expert
 
 DOI: [10.5281/zenodo.22006608](https://doi.org/10.5281/zenodo.22006608)
 
+License: [CC-BY-4.0](LICENSE)
+
 ## Paper
 
 The paper is in [`paper/paper.md`](paper/paper.md), with a compiled PDF in [`paper/paper.pdf`](paper/paper.pdf).
